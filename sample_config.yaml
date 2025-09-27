@@ -1,0 +1,6 @@
+debug: 0  # Set to 1 for debug mode (faster, smaller batches)
+lr: 0.00001  # Learning rate (1e-5)
+n_grpo_steps: 200  # Number of GRPO training steps
+eval_sample_size: 1024  # Number of samples for evaluation
+use_std_normalization: true  # Whether to use standard deviation normalization
+eval_log_frequency: 5  # How often to run evaluation (every N steps)
