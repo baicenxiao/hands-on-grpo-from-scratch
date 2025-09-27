@@ -48,7 +48,7 @@ uv run src/math_baseline.py
 ### 5. Run GRPO finetuning
 ```bash
 # You need to log into your wandb account for logging
-uv run src/train_grpo.py
+uv run src/train_grpo.py sample_config.yaml
 ```
 
 ## References
