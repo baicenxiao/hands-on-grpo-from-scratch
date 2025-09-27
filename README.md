@@ -1,6 +1,6 @@
 # A minimal example for GRPO from Scratch
 
-This repository accompanies a Medium blog post explaining how to implement Group Relative Policy Optimization (GRPO) from scratch. The implementation provides a clear, educational example of modern alignment techniques for language models.
+This repository accompanies a Medium blog post: [Hands-On LLM Alignment: Coding GRPO from Scratch, Step by Step](https://medium.com/@baicenxiao/hands-on-llm-alignment-coding-grpo-from-scratch-step-by-step-30c6aa4a2146), explaining how to implement Group Relative Policy Optimization (GRPO) from scratch. The implementation provides a clear, educational example of modern alignment techniques for language models.
 
 
 
@@ -54,7 +54,7 @@ uv run src/train_grpo.py sample_config.yaml
 The environment setup and dependency management follows the approach used in [Stanford CS336 Assignment 5: Alignment](https://github.com/stanford-cs336/assignment5-alignment), providing a robust foundation for machine learning experimentation.
 
 ### Papers
-- **GRPO Paper**: [Group Relative Policy Optimization for Sequential Recommendation](https://arxiv.org/abs/2402.06924) - The original paper introducing Group Relative Policy Optimization
+- **GRPO Paper**: [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) - The original GRPO paper from DeepSeek-AI.
 
 ### Libraries
 - **Hugging Face TRL**: [Transformer Reinforcement Learning](https://github.com/huggingface/trl) - A library for training transformer language models with reinforcement learning, including RLHF and alignment techniques. We do not directly use TRL, but it is an important reference.
