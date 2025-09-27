@@ -8,8 +8,6 @@ If you find any issues with the code or have suggestions for improvements, pleas
 
 ## Setup
 
-As in previous assignments, we use `uv` to manage dependencies.
-
 ### 1. Install Dependencies
 
 Install all packages except `flash-attn`, then all packages (`flash-attn` is weird)
